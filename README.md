@@ -7,12 +7,13 @@ This unity project has been tested on Unity 5.4.1f1, with patches made with (Pd 
 
 ## Instructions
 The project contains one scene called "AScene". Said scene contains the following game objects:
+
 1. Main Camera: Nothing special 
 2. Directional Light: Nothing special
 3. LibPd: an ampty game object with an "AudioListner" attached, that points to the Pd patch called "bouncingBallSound.pd"
 4. A Plane: has a Mesh Collider
 5. A Sphere: has several things attached:
-* A Sphere Collider: Note the Physic Material called "Bouncy" that keeps the ball bouncing
-* A Rigid Body: Gives us the sphere's velocity
-* A script called "BounceToPd.cs": sends messages to P dfor the sonification
+..* A Sphere Collider: Note the Physic Material called "Bouncy" that keeps the ball bouncing
+..* A Rigid Body: Gives us the sphere's velocity
+..* A script called "BounceToPd.cs": sends messages to P dfor the sonification
 
