@@ -18,6 +18,6 @@ The project contains one scene called "AScene". Said scene contains the followin
   * A Rigid Body: Gives us the sphere's velocity
   * A script called "BounceToPd.cs": sends messages from Unity to Pd for the sonification, in this code block:
 	`LibPD.SendFloat("pitchOffset", sphereY);`
-	The value of float variable `sphereY` is sent to the object in the Pd patch called "bouncingBallSound.pd" that has a its receive set to "pitchOffset". You can look at the Pd objects properties to see its receive value.
+	The value of float variable `sphereY` is sent to the object in the Pd patch called bouncingBallSound.pd" that has a its receive set to `pitchOffset`. You can look at the Pd objects properties to see its receive value.
   
 
