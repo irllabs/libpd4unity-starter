@@ -34,7 +34,6 @@ public class BounceToPd : MonoBehaviour {
 		if (bounceMoment) {
 			LibPD.SendFloat ("bounce", 1);
 			bounceMoment = false;
-			print(msg);
 			lastVelocity = -1;
 
 		}
